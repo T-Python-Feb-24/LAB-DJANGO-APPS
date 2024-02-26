@@ -1,13 +1,8 @@
 # LAB-DJANGO-APPS
 
-## Create a new Project `GameArena` , and do the following:
-- Create an app `main`
-- Create a home page that has the following content:
-- - A header `h1`
-- - An image `img` about games (choose any image from the internet).
-- -  A paragraph `p` about games.
+## Create a new Project `Elden Ring DLC` , and there is some screanshots for the content in the homepage :
 
+![alt text](<Screenshot 1445-08-16 at 7.14.22 PM.png>)
+![alt text](<Screenshot 1445-08-16 at 7.14.35 PM.png>)
 
-## Result
-when visiting `http://127.0.0.1/` we should see a page with the content in the homepage.
   
