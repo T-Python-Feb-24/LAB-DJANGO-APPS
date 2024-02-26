@@ -10,4 +10,3 @@
 
 ## Result
 when visiting `http://127.0.0.1/` we should see a page with the content in the homepage.
-  
