@@ -1,40 +1,26 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <style>
-        body {
-            background-color: burlywood;
-            text-align: center;
-        }
-
-        h1 {
-            color:darkblue;
-            font-weight: bold;
-        }
-        
-        h2 {
-            color:cadetblue;
-            text-decoration: underline;
-            font-weight: bold;
-        }
-
-        p {
-            text-align: center;
-            font-family: 'Courier New', Courier, monospace;
-        }
-    </style>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}">
     <title>Games Arena</title>
 </head>
 <body>
     <h1>Welcome to Games Arena!</h1>
     <h2>Todays Game</h2>
-    <img src="SMM2.jpeg" alt="Super Mario Maker 2 Game Image">
+    
+    <img src="{% static 'main/images/SMM2.jpeg' %}" alt="Super Mario Maker 2 Game Image">
+    
     <p><strong>Game Name: Super Mario Maker 2</strong></p>
-    <p><strong>Date: April  3rd, 2015</strong></p>
+    <p><strong>Release Date: June  28, 2019</strong></p>
     <p>Super Mario Maker 2 is a 2019 platform game and game creation system developed and published by Nintendo for the Nintendo Switch.</p>
+    <p>The gameplay is largely retained from that of its predecessor, in which players create their own custom courses using assets from various games across the Super Mario franchise and share them online. Super Mario Maker 2 introduces new features and course assets, including a single player story mode and new level assets based on Super Mario 3D World.</p>
 
+    <h2>Sales</h2>
+
+    <p>It was the best-selling game in Japan during its first two weeks of release, selling 279,357 physical copies. By the end of March 2021, the game had sold over 7.15 million copies worldwide, making it one of the best-selling games on the Switch. The 2023 CESA Games White Papers revealed that Super Mario Maker 2 had sold 8.42 million units, as of December 31, 2022.</p>
 </body>
 </html>
