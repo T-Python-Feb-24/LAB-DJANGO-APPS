@@ -1,8 +1,8 @@
-from.import views
-from Django.urls import path
+from . import views
+from django.urls import path
 
-App_name ='main'
+app_name ='main'
 
-Urlpatterns =[
+urlpatterns =[
     path('',views.home_page,name="home_page")
 ]
